@@ -1,0 +1,37 @@
+div {
+    margin: 2%;
+}
+#firstSection {
+    background-color: bisque;
+    padding: 3%;
+    text-align: center;
+}
+
+p {
+    font-size: 150%;
+}
+input[type="text"] {
+    width: 65%;
+    padding: 1%;
+}
+input[type='submit'] {
+    padding: 1%;
+}
+
+.newTask {
+    background-color: rgb(248, 239, 239);
+    font-style: italic;
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 2em;
+    word-spacing: 2.5em;
+    padding: 1%;
+}
+
+.toggle{
+    text-decoration: line-through;
+}
+.remove {
+    float: right;
+    font-size: xx-small;
+}

@@ -21,7 +21,6 @@ input[type='submit'] {
 .newTask {
     background-color: rgb(248, 239, 239);
     font-style: italic;
-    font-size: 1.5em;
     font-weight: bold;
     line-height: 2em;
     word-spacing: 2.5em;

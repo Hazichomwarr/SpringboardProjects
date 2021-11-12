@@ -1,0 +1,43 @@
+body {
+    margin: 2%;
+    background-color: rgb(39, 35, 35);
+    text-align: center;
+}
+
+h1 {
+    color: rgb(98, 170, 170);
+    font-size: 4em;
+}
+form {
+    margin: .5%;
+    display: inline-block;
+    width: 80%;
+}
+#searchKey {
+    padding: 1.5%;
+    width: 50%;
+}
+#submit {
+    width: 10%;
+    padding: 1.5%;
+    background-color: rgb(65, 62, 62);
+    color: whitesmoke;
+}
+#submit:hover {
+    border: blue 1px solid;
+    background-color: black;
+    color: whitesmoke;
+}
+
+#remove {
+    background-color: rgb(179, 31, 5);
+    padding: 1%
+}
+#remove:hover {
+    border-radius: 20%;
+    border: blue 1px solid
+}
+
+img {
+    margin: 1%;
+}

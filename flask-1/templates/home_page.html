@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter Page</title>
+</head>
+{% for msg in get_flashed_messages() %}
+            <h3 style="background-color: rgb(171, 226, 43);">{{ msg }}</h3>
+        {% endfor %}
+<body style="font-size: x-large; margin: 3%;">
+    <form method="post" action="/" style="margin-left: 35%;">
+        <label for="from">Converting from:
+            <input type="text" placeholder="Example: USD" name="from" style="margin-bottom: 2%;">
+        </label><br>
+        <label for="to">Converting to:
+            <input type="text" placeholder="Example: EUR" name="to" style="margin-bottom: 2%;">
+        </label><br>
+        <label for="amount">Amount:
+            <input type="number" name="amount" style="margin-bottom: 2%;">
+        </label><br>
+        <button>Convert</button>
+        
+    </form>
+    
+
+</body>
+</html>

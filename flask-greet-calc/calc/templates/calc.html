@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Calculator Home Page</title>
+</head>
+<body>
+    <form action="/math">
+        <h1>Web Calculator</h1>
+        <label for="first">First number:
+            <input type="number" name="first">
+        </label><br>
+        <label for="second">Second number:
+            <input type="number" name="second">
+        </label> <br>
+        <input type="radio" name='option' value="add"> Addition </input>
+        <input type="radio" name='option' value="sub">substraction </input>
+        <input type="radio" name='option' value="mult">Multiplication </input>
+        <input type="radio" name="option" value="div">Division </input> <br>
+        <button>Calculate</button>
+    </form>
+    <!-- <form action="math/sub">
+        <button>Soustraction</button>
+    </form>
+    <form action="/math/mult">
+        <button>Multiplication</button>
+    </form>
+    <form action="math/div">
+        <button>Division</button>
+    </form> -->
+</body>
+</html>

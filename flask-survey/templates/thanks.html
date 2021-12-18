@@ -1,0 +1,12 @@
+{%extends 'base.html'%}
+
+{%block title%} Thanks for participating {%endblock%}
+
+{%block body %}
+    <h3>Thanks for your responses. below they are</h3>
+    {% for values in responses %}
+        {% for key, value in values.items() %}
+        <p>{{key}}: {{value}} </p>
+        {% endfor %}
+    {% endfor %}
+{%endblock%}

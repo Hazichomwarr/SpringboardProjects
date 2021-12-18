@@ -1,0 +1,14 @@
+{%extends 'base.html'%}
+
+{%block title%} Survey Home Page {%endblock%}
+
+{%block body%}
+    
+    <form action="/questions" method="post">
+        <h2>Choose a Survey below</h2>
+        {% for title in titles %}
+        <input type="radio" name="option" value="{{title}}"> {{ title }} <br>
+        {% endfor %}
+        <button> Start </button>
+    </form>
+{%endblock%}
